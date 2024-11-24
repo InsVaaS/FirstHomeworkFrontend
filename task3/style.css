@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+    background: rgb(91, 128, 177);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container img{
+    width: 200px;
+}
+.container > div{
+    box-sizing: border-box;
+    margin-right: 30px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 5px solid rgb(54, 22, 22);
+    -webkit-box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.container > div:last-child{
+    margin-right: 0;
+}
+.one{
+    background: rgb(211, 50, 163);
+}
+.two{
+    background: rgb(42, 110, 57);
+}
+.three{
+    background: rgb(137, 165, 73);
+}
+p{
+    text-align: left;
+    padding: 0 20px;
+}
+button:hover{
+    background: rgb(160, 114, 28);
+}
